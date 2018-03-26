@@ -4,7 +4,7 @@ process.title = 'Clippy'
 var Config
 
 try {
-  Config = require('./config.json')
+  Config = require('')
 } catch (e) {
   console.log('\nClippy encountered an error while trying to load the config file, please resolve this issue and restart Clippy\n\n' + e.message)
   process.exit()
