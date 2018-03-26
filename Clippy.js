@@ -1,12 +1,12 @@
 'use strict'
-process.title = 'WildBeast'
+process.title = 'Clippy'
 
 var Config
 
 try {
   Config = require('./config.json')
 } catch (e) {
-  console.log('\nWildBeast encountered an error while trying to load the config file, please resolve this issue and restart WildBeast\n\n' + e.message)
+  console.log('\nClippy encountered an error while trying to load the config file, please resolve this issue and restart Clippy\n\n' + e.message)
   process.exit()
 }
 
@@ -356,3 +356,4 @@ function start () {
     token: Config.bot.token
   })
 }
+client.login(process.env.BOT_TOKEN
