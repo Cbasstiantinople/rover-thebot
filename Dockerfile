@@ -1,5 +1,5 @@
-FROM dougley/wildbeast-env:latest
-MAINTAINER hello@dougley.com
+FROM Sebastian Perez
+MAINTAINER cbasstiantinople@gmail.com
 
 RUN mkdir -p /usr/src/WildBeast
 WORKDIR /usr/src/WildBeast
