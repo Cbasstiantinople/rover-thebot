@@ -1,26 +1,26 @@
 {
   "private": true,
-  "name": "WildBeast",
+  "name": "Clippy",
   "version": "4.5.0",
-  "description": "A Discord Bot",
-  "main": "DougBot.js",
+  "description": "Your personal Discord Office Assistant!",
+  "main": "Clippy.js",
   "maintainers": [
     {
-      "name": "Anthony Zaza",
-      "email": "tony@lemonmc.com"
+      "name": "Sebastian Peez",
+      "email": "cbasstiantinople@gmail.com"
     }
   ],
   "scripts": {
     "prestart": "npm update",
     "test": "standard & eslint **",
-    "start": "node DougBot.js",
+    "start": "node Clippy.js",
     "dbcreate": "node runtime/internal/dbcreate.js",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "?"
   },
   "author": {
-    "name": "Remco Jongschaap",
-    "email": "Hello@dougley.com",
-    "url": "https://dougley.com"
+    "name": "Sebastian Perez",
+    "email": "cbasstiantinople@gmail.com",
+    "url": "nothx.com"
   },
   "bugs": {
     "url": "https://github.com/TheSharks/WildBeast/issues"
