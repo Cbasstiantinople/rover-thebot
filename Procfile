@@ -1,1 +1,1 @@
-worker: node Clippy.js
+worker node Clippy.js
