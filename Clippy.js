@@ -356,4 +356,4 @@ function start () {
     token: Config.bot.token
   })
 }
-client.login(process.env.n9TiafTeJCJv6QlBUI2hpWh9_YvO3PR4)
+client.login(process.env.BOT_TOKEN)
